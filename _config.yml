@@ -1,0 +1,31 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: true
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: ROS signaling notebook
+
+description: Open science notebook describing my work at University of Skövde
+author:
+  name: Fredrik Wallner
+  email: fredrik.wallner@his.se
+  github: fredrikw
+  twitter: fredrikwallner
+  linkedin: fredrik-wallner
+  bio: Medicinal Chemist and Data analyst at Redoxis AB. Since june 2014 also adjunct professor at the University of Skövde where I will investigate the signaling of Reactive Oxygen Species in regards to autoimmunity.
+  email_md5: b62c1a7b33da5eba3437170b837dd815
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
